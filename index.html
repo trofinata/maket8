@@ -129,19 +129,45 @@
 			Назад Вперёд		
 			<h3>Ваша оценка</h3>
 			<p>Оцените использование <b>Rizor 4.0</b> и получите скидку <strong>10%</strong> на покупку второго гироскутера</p>
-			Имя и фамилия
-			Семён Константинопольский
-			Текст отзыва
-			Ваш отзыв
-			Общая оценка
-			5
-			Надёжность
-			5
-			Безопасность
-			4
-			Внешний вид
-			5
-			Отправить отзыв
+			<form action="#" method="POST"></form>
+				<label for="form-name">Имя и фамилия</label>
+				<input type="text" name="name" id="form-name" placeholder="Семён Константинопольский">
+				<label for="">Текст отзыва</label>
+				<textarea name="feedback" id="form-feedback" placeholder="Ваш отзыв"></textarea>					
+				<label for="form-common">Общая оценка</label>
+				<select name="common" id="form-common">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5" selected>5</option>
+				</select>				
+				<label for="form-reliability">Надёжность</label>
+				<select name="reliability" id="form-reliability">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5" selected>5</option>
+				</select>
+				<label for="form-security">Безопасность</label>
+				<select name="security" id="form-security">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5" selected>5</option>
+				</select>
+				<label for="form-view">Внешний вид</label>
+				<select name="view" id="form-view">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5" selected>5</option>
+				</select>
+				<button type="submit">Отправить отзыв</button>
+			</section>
 		</section>
 		<section class="comparison">
 			<h2>Сравнение моделей</h2>
